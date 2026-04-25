@@ -23,10 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = "django-insecure-0w-9dga_7#c#odo#uxbg0n&9r2$cgfakboub-s4e%03rqfx^ii"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['ludookyn.pythonanywhere.com']
+STATIC_ROOT = BASE_DIR / 'static'
 
 # Application definition
 
